@@ -1,0 +1,12 @@
+KeyStore: mis_notas
+Password: misnotas$8*
+
+-------------------------------
+
+Alias: mis_notas
+Password: misnotas$8*
+
+----------------------------------
+
+keytool -list -v -keystore mis_notas.jks -alias mis_notas -storepass misnotas$8* -keypass misnotas$8*
+SHA1: A1:C2:10:F2:26:72:B7:E0:20:E1:0B:9B:F7:AE:B8:0B:C9:A9:B6:65
